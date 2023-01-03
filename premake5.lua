@@ -9,7 +9,7 @@ project "WAH"
 	targetdir "Build/%{cfg.buildcfg}"
 	objdir ("Intermediate/%{cfg.buildcfg}")
 	
-	files {"**.h", "**.cpp"}
+	files {"**.h", "**.cpp", "*.hpp"}
 	
 	includedirs
 	{

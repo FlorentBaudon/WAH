@@ -12,14 +12,8 @@ using namespace std;
 
 int CommandTools::ExecuteCommand(string path, string cmd, string args)
 {
-
-	//const char* path = "D:/Unity_Installs/2021.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/SDK/platform-tools";
 	
 	filesystem::current_path(path);
-
-	//std::string command("adb.exe");
-
-	//std::string args("devices");
 
 	string command = cmd + " " + args;
 
